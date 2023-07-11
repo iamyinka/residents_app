@@ -1,5 +1,13 @@
-const bigText = $("#bigText");
+const makePaymentBtn = document.querySelector("#makePayment");
+const closePaymentBtn = document.querySelector("#closePayment");
+const paymentSection = document.querySelector("#paymentSection");
 
-bigText.on("click", function () {
-  console.log("Clicked!");
+makePaymentBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  paymentSection.style.display = "block";
+});
+
+closePaymentBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  paymentSection.style.display = "none";
 });

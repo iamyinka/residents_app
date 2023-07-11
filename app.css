@@ -18,11 +18,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 #login-view__left,
@@ -56,6 +56,22 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -30%);
+}
+
+#login-view__bg {
+  width: 100%;
+}
+
+.login-view p {
+  text-align: center;
+}
+
+.login-view p small {
+  font-size: 0.85rem;
+}
+
+#paymentSection {
+  display: none;
 }
 
 @keyframes animateLoginPage {

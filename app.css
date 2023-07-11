@@ -36,7 +36,7 @@ p {
 }
 
 #login-view__left {
-  animation: animateLoginPage 5s ease-in 0s infinite alternate forwards;
+  /* animation: animateLoginPage 5s ease-in 0s infinite alternate forwards; */
 }
 
 #login-view__right {

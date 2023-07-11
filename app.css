@@ -36,7 +36,7 @@ p {
 }
 
 #login-view__left {
-  /* animation: animateLoginPage 5s ease-in 0s infinite alternate forwards; */
+  animation: animateLoginPage 5s ease-in 0s infinite alternate forwards;
 }
 
 #login-view__right {
@@ -45,7 +45,7 @@ p {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Lobster", cursive;
   text-align: center;
 }

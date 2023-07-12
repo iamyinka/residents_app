@@ -140,12 +140,20 @@
     <div class="container">
         <div class="row" id="paymentSection">
             <div class="col-md-6 mx-auto">
-                <form>
+                <form method="POST" action="https://checkout.flutterwave.com/v3/hosted/pay">
                     <h6>Make a Payment</h6>
+                    <input type="hidden" name="public_key" value="" />
+                    <input type="hidden" name="customer[email]" value="" />
+                    <input type="hidden" name="customer[name]" value="Jesse Pinkman" />
+                    <input type="hidden" name="tx_ref" value="" />
+                    <input type="hidden" name="currency" value="NGN" />
+                    <input type="hidden" name="meta[token]" value="54" />
+                    <input type="hidden" name="redirect_url"
+                        value="https://iamyinka.github.io/residents_app/dashboard.html" />
                     <div class="mb-3">
                         <label for="amount" class="form-label">Amount</label>
                         <input type="number" class="form-control" id="amount" placeholder="Enter Amount" min="1000"
-                            required>
+                            name="amount" required>
                     </div>
                     <div class="mb-3">
                         <select class="form-select" aria-label="Default select example">

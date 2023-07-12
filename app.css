@@ -75,6 +75,11 @@ h1 {
   /* margin: 5rem 0; */
 }
 
+.fa-icon {
+  font-size: 8rem;
+  text-align: center;
+}
+
 @keyframes animateLoginPage {
   from {
     transform: scale(1.2);
